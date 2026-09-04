@@ -10,3 +10,7 @@ Tracking each OWASP category from Phase 1, and whether the matching defense bloc
 
 | 13 | LLM03 Excessive Agency | `AgencyLimitGuard` — hard cap on refund amounts, mandatory human approval for irreversible actions | ✅ Blocked Day 7's exploit — $999,999 refund and account deletion both queued for approval instead of auto-executing |
 
+| 14 | LLM04 Supply Chain | `DependencyIntegrityGuard` — SHA-256 hash verification before executing any dependency code | ✅ Blocked Day 4's exploit — compromised plugin's code never ran at all, hash mismatch caught it pre-execution |
+
+**Score so far: 4/9 defenses complete.**
+
