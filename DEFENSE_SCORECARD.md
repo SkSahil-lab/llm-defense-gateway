@@ -12,5 +12,8 @@ Tracking each OWASP category from Phase 1, and whether the matching defense bloc
 
 | 14 | LLM04 Supply Chain | `DependencyIntegrityGuard` — SHA-256 hash verification before executing any dependency code | ✅ Blocked Day 4's exploit — compromised plugin's code never ran at all, hash mismatch caught it pre-execution |
 
-**Score so far: 4/9 defenses complete.**
+| 15 | LLM05 Data and Model Poisoning | `KnowledgeIntegrityGuard` — submit/approve separation, unreviewed content never served even if asked | ✅ Blocked Day 5's exploit — poisoned refund policy stayed unreachable, approved shipping policy served normally |
+
+**Score so far: 5/9 defenses complete.**
+
 
